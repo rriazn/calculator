@@ -1,0 +1,33 @@
+.outer {
+    min-height: 2048px;
+    background-color: rgb(89, 67, 170);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    min-height: 128px;
+    width: 100%;
+    padding-top: 12px;
+    align-items: center;
+    justify-content: center; /* Center the .inputs horizontally */
+}
+
+.inputs {
+    display: flex;
+    min-height: 128px;
+    gap: 12px;         /* Space between input fields */
+    width: 90%;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    width: 90%;
+    background-color: red;
+    min-height: 512px;
+    
+}
