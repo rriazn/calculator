@@ -13,6 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgb(89, 67, 170);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 .right-header {
@@ -28,5 +31,5 @@
 .picture {
     width: 100px;
     height: 120px;
-    box-sizing: border-box;
+    
 }
