@@ -1,11 +1,11 @@
 <div class="outer">
     <div class="input-outer">
-        <input class="inputs" type="number" placeholder="Input 1">
-        <input class="inputs" type="number" placeholder="Input 2">
+        <input class="inputs" type="number" placeholder="Input 1" [(ngModel)]="input1">
+        <input class="inputs" type="number" placeholder="Input 2" [(ngModel)]="input2">
     </div> 
     <div class="buttons-outer">
         <div class="buttons-inner">
-            <button class="button">+</button>
+            <button class="button" (click)="calculate('+')">+</button>
             <button class="button">-</button>
             <button class="button">×</button>
             <button class="button">÷</button>
@@ -16,6 +16,6 @@
         </div>   
     </div>
     <div class="output">
-
+        {{output}}
     </div>
 </div>
