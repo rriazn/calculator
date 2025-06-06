@@ -19,7 +19,8 @@
     padding-bottom: 12px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: darkblue;
+    border-radius: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -36,7 +37,8 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    background-color: red;
+    background-color: darkblue;
+    border-radius: 12px;
     height: 512px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -58,9 +60,15 @@
 }
 
 .output {
-    background-color: red;
+    background-color: darkblue;
+    border-radius: 12px;
     width: 90%;
     height: 128px;
     padding-top: 12px;
     padding-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 2em sans-serif;
 }

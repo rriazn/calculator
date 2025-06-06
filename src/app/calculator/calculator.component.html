@@ -6,16 +6,17 @@
     <div class="buttons-outer">
         <div class="buttons-inner">
             <button class="button" (click)="calculate('+')">+</button>
-            <button class="button">-</button>
-            <button class="button">×</button>
-            <button class="button">÷</button>
-            <button class="button">sin</button>
-            <button class="button">cos</button>
-            <button class="button">^</button>
-            <button class="button">√</button>
+            <button class="button" (click)="calculate('-')">-</button>
+            <button class="button" (click)="calculate('*')">×</button>
+            <button class="button" (click)="calculate('/')">÷</button>
+            <button class="button" (click)="calculate('sin')">sin</button>
+            <button class="button" (click)="calculate('cos')">cos</button>
+            <button class="button" (click)="calculate('^')">^</button>
+            <button class="button" (click)="calculate('sqrt')">√</button>
+            <button class="button" (click)="reset()">AC</button>
         </div>   
     </div>
     <div class="output">
-        {{output}}
+        {{out}}
     </div>
 </div>
